@@ -5,8 +5,8 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 cd $SCRIPT_DIR
 
 # Accidental run prevention
-if [ -d "StableSwarmUI" ]; then
-    echo "StableSwarmUI already exists in this directory. Please remove it before installing."
+if [ -d "SwarmUI-IntelArc-Linux" ]; then
+    echo "SwarmUI-IntelArc-Linux already exists in this directory. Please remove it before installing."
     exit 1
 fi
 if [ -f "StableSwarmUI.sln" ]; then
