@@ -15,8 +15,8 @@ if [ -f "StableSwarmUI.sln" ]; then
 fi
 
 # Download swarm
-git clone https://github.com/Stability-AI/StableSwarmUI
-cd StableSwarmUI
+git clone https://github.com/JT-Gresham/SwarmUI-IntelArc-Linux
+cd SwarmUI-IntelArc-Linux
 
 # install dotnet
 cd launchtools
